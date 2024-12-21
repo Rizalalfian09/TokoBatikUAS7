@@ -4,18 +4,20 @@ import { View, Text, StyleSheet, ScrollView, Image, TouchableOpacity, ImageBackg
 export default function Home() {
   const categories = [
     { name: 'Batik Mega Mendung', image: 'https://tse1.mm.bing.net/th?id=OIP.64a8dxdMT6Mj0FopUkY3XAHaEs&w=300&h=300&c=7' },
-    { name: 'Batik Parang', image: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Batik_Parang.jpg' },
-    { name: 'Batik Kawung', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Batik_Kawung.jpg' },
-    { name: 'Batik Truntum', image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Batik_Truntum.jpg' },
-    { name: 'Batik Sidomukti', image: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Batik_Sidomukti.jpg' },
+    { name: 'Batik Parang', image: 'https://tse2.mm.bing.net/th?id=OIP.bhbnNHx5fWOgU8Q693S8-gHaHa&w=474&h=474&c=7' },
+    { name: 'Batik Kawung', image: 'https://tse4.mm.bing.net/th?id=OIP.RJpP9UKfIp4TBuyg6cQ1AAHaFN&w=333&h=333&c=7' },
+    { name: 'Batik Truntum', image: 'https://tse3.mm.bing.net/th?id=OIP.rlHZG132-lyZLlU2JHzaMgHaJ4&w=474&h=474&c=7' },
   ];
 
   const products = [
-    { name: 'Kain Batik Mega Mendung', price: 'Rp 150.000', image: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Batik_Mega_Mendung.jpg' },
-    { name: 'Kemeja Batik Parang', price: 'Rp 250.000', image: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Batik_Parang.jpg' },
-    { name: 'Gaun Batik Kawung', price: 'Rp 350.000', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Batik_Kawung.jpg' },
-    { name: 'Selendang Batik Truntum', price: 'Rp 120.000', image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Batik_Truntum.jpg' },
-    { name: 'Kain Batik Sidomukti', price: 'Rp 200.000', image: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Batik_Sidomukti.jpg' },
+    { name: 'Kain Batik Mega Mendung', price: 'Rp 150.000', image: 'https://tse4.mm.bing.net/th?id=OIP.eazPJB9cljbLSNmJrnOQVgHaHa&w=474&h=474&c=7' },
+    { name: 'Kemeja Batik Parang', price: 'Rp 250.000', image: 'https://tse1.mm.bing.net/th?id=OIP.T-z1JHL5WLP7zgxaCmbC5gHaJQ&w=474&h=474&c=7' },
+    { name: 'Gaun Batik Kawung', price: 'Rp 350.000', image: 'https://tse4.mm.bing.net/th?id=OIP.BFA5a95SktzCaJD8czTUpQHaJ4&w=200&h=267&c=7' },
+    { name: 'Selendang Batik Truntum', price: 'Rp 120.000', image: 'https://tse4.mm.bing.net/th?id=OIP.wmbYxwj9AX0vz9Y2kUX5xgHaJ4&w=200&h=267&c=7' },
+    { name: 'Kain Batik Mega Mendung', price: 'Rp 150.000', image: 'https://tse4.mm.bing.net/th?id=OIP.eazPJB9cljbLSNmJrnOQVgHaHa&w=474&h=474&c=7' },
+    { name: 'Kemeja Batik Parang', price: 'Rp 250.000', image: 'https://tse1.mm.bing.net/th?id=OIP.T-z1JHL5WLP7zgxaCmbC5gHaJQ&w=474&h=474&c=7' },
+    { name: 'Gaun Batik Kawung', price: 'Rp 350.000', image: 'https://tse4.mm.bing.net/th?id=OIP.BFA5a95SktzCaJD8czTUpQHaJ4&w=200&h=267&c=7' },
+    { name: 'Selendang Batik Truntum', price: 'Rp 120.000', image: 'https://tse4.mm.bing.net/th?id=OIP.wmbYxwj9AX0vz9Y2kUX5xgHaJ4&w=200&h=267&c=7' },
   ];
 
   return (
@@ -23,7 +25,7 @@ export default function Home() {
       {/* Header */}
       <View style={styles.header}>
         <ImageBackground
-          source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Batik_Mega_Mendung.jpg' }}
+          source={{ uri: 'https://indonesiakaya.com/wp-content/uploads/2020/11/gelar-batik-nusantara-20171.jpg' }}
           style={styles.headerBackground}
           imageStyle={{ borderRadius: 12 }}
         >

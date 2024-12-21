@@ -6,8 +6,8 @@ export default () => {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: '#FF4500', // Warna ikon saat aktif
-        tabBarInactiveTintColor: '#808080', // Warna ikon saat tidak aktif
+        tabBarActiveTintColor: '#0f0e0e', // Warna ikon saat aktif
+        tabBarInactiveTintColor: '#686464', // Warna ikon saat tidak aktif
       }}
     >
       {/* Halaman Home dengan Tab Navigasi */}
