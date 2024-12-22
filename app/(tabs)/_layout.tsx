@@ -28,6 +28,15 @@ export default () => {
           title: 'Diskon',
         }}
       />
+      <Tabs.Screen
+        name="transaksi"
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="card" size={size} color={color} />
+          ),
+          title: 'Transaksi',
+        }}
+      />
     </Tabs>
   );
 };
